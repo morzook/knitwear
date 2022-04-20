@@ -257,7 +257,7 @@ body{
  }
   
   .hero-container{
-      margin-top: 30px;
+      margin-top: -20px;
       width: 90%;
       height: 65%;
   }
@@ -291,7 +291,7 @@ body{
 
 
 .hero-container-2{
-    height: 80%;
+    height: 75%;
     width: 26rem;
 }
 
@@ -311,11 +311,11 @@ body{
 
  
     .hero{
-        height: 90vh;
+        height: 100vh;
     }
      
      .hero-container{
-         margin-top: 20px;
+         margin-top: -100px;
          width: 90%;
          height: 60%;
      }
@@ -342,7 +342,7 @@ body{
    }
    
    .heading-2{
-       height: 35%;
+       height: 40%;
        width: 80%;
        font-size: 4.5rem;
    }
@@ -368,7 +368,7 @@ body{
    
    
    .hero-container-2{
-       height: 80%;
+       height: 70%;
        width: 52%;
    }
    
@@ -434,24 +434,25 @@ body{
         }
 
         .hero-container{
+            border: 2px solid rgb(252, 72, 17);
             width: 95%;
             height: 90%;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top: -10px;
+            margin-top: -25px;
         }
 
         .hero-container-1{
+            border: 2px solid green;
             height: 50%;
             width: 98%;
             padding: 5px;
             margin-top: 15px;
-          
-
         }
         
         .hero-container-1-content{
+            border: 2px solid rgb(240, 252, 17);
             padding: 5px;
             width: 100%;
             height: 80%;
@@ -460,6 +461,7 @@ body{
          }
         
         .heading-1{
+            border: 2px solid rgb(213, 17, 252);
             text-align: start;
             width: 100%;
             font-size: 2.5;
@@ -468,33 +470,34 @@ body{
         }
         
         .heading-2{
-            text-align: center;
+            border: 2px solid rgb(213, 17, 252);
+            text-align: start;
             height: 35%;
             width: 100%;
-            font-size: 3.2rem;
+            font-size: 4rem;
         }
         
         .heading-hr{
             width: 100%;
-            margin-top: -7px;
+            margin-top: -10px;
         }
      
         .hero-paragraph{
          width: 95%;
-         margin-top: -10px;
+         margin-top: -15px;
          text-align: center;
         }
      
      .hero-button-container{
          width: 99%;
-         margin-top: 35px;
+         margin-top: 25px;
          display: flex;
          justify-content: center;
      }
      
      .hero-button{
          width: 40%;
-         height: 30px;
+         height: 35px;
          font-size: 15px;
      }
         
@@ -532,7 +535,7 @@ body{
 }
      
      .hero-blurb{
-         height: 20%;
+         height: 17%;
      }
      
      .blurb-hr{
@@ -545,8 +548,10 @@ body{
          margin-top: 0;
          height: 90%;
          width: 95%;
-         font-size: 12px;
+         font-size: 15px;
      } 
     
     }
     /* MEDIA BREAK MOBILE ENDS*/
+
+    /* HERO SECTION ENDS */
