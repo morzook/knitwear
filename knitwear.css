@@ -1095,7 +1095,6 @@ body{
 
     .flyer{
       height: 80vh;
-      max-width: 768px;
     }
 
     .flyer-content{
@@ -1133,8 +1132,7 @@ body{
       }
   
       .flyer-container-1, .flyer-container-2{
-        padding-left: 5px;
-        padding-right: 5px;
+        padding: 0;
           width: 95%;
           height: 35%;
           justify-content: center;
@@ -1154,9 +1152,8 @@ body{
       }
   
       .flyer-text{
-          border: 2px solid red;
           justify-content: center;
-          width: 50% ;
+          width: 48% ;
           height: 100%;
       }
 
@@ -1168,20 +1165,20 @@ body{
 
       .flyer-paragraph{
           align-items: center;
-        border: 2px solid red;
         width: 100%;
         font-size: 10px;
       }
 
       .big-box-image-container{
-        width: 50%;
+        width: 48%;
         height: 120%;
+        margin-bottom: 20px;
     }
   
       .flyer-image{
-          width: 110%;
+          width: 100%;
           height: 110%;
-          margin-top: -25px;
+          margin-top: -15px;
       }
   
 
