@@ -564,7 +564,7 @@ body{
         justify-content: space-between;
     }
 
-    h2 {
+    h2 { 
      font-family: 'Orbitron', sans-serif;
      font-size: 2rem;
      text-transform: uppercase;
@@ -576,7 +576,7 @@ body{
         content: "";
         border-top: 2px solid black;
         width: 200px;
-        margin: -10px 10px;
+        margin: -8px 8px;
         transform: translateY(-1rem);
     }
 
@@ -960,7 +960,8 @@ body{
     /* FLYER SECTION STARTS */
 
     .flyer{
-        height: 100vh;
+        /* background-color: #e4e2d6; */
+        height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -975,7 +976,7 @@ body{
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        height: 80%
+        height: 100%
 
     }
 
@@ -985,7 +986,7 @@ body{
         justify-content: space-around;
         align-items: center;
         width: 50%;
-        height: 45%;
+        height: 40%;
     }
      .flyer-container-2{
          flex-direction: row-reverse;
@@ -1044,7 +1045,7 @@ body{
     .flyer-image{
         width: 100%;
         height: 120%;
-        margin-top: -50px;
+        margin-top: -45px;
     }
 
     .flyer-heading{
@@ -1068,12 +1069,12 @@ body{
         /* MEDIA BREAK 1100px STARTS*/
 
 @media screen and (max-width: 1100px) {
-    /* .flyer{
-        border: 2px solid teal;
-    } */
+    .flyer{
+        height: 70vh;
+    }
 
     .flyer-content{
-        height: 80%
+        height: 100%
     }
 
     .flyer-container-1, .flyer-container-2{
@@ -1081,10 +1082,25 @@ body{
         height: 45%;
 }
 
+.flyer-text{
+    width: 50%;
+    height: 60%;
+}
+
+.flyer-heading{
+    font-size: 1rem;
+
+    }
+
+    .flyer-paragraph{
+        display: flex;
+        justify-content: center;
+    }
+
 .flyer-image{
     width: 100%;
     height: 110%;
-    margin-top: -30px;
+    margin-top: -25px;
 }
 
  /* MEDIA BREAK 1100px ENDS*/
@@ -1094,11 +1110,11 @@ body{
 @media screen and (max-width: 768px) {
 
     .flyer{
-      height: 80vh;
+      height: 70vh;
     }
 
     .flyer-content{
-        height: 80%
+        height: 100%
     }
 
     .flyer-container-1, .flyer-container-2{
@@ -1107,13 +1123,27 @@ body{
     }
 
     .flyer-text{
-        width: 50% ;
+        width: 60% ;
+        height: 70%;
     }
+
+.flyer-heading{
+    font-size: 0.9rem;
+    width: 100%;
+    text-align: center;
+
+    }
+
+    .flyer-paragraph{
+        display: flex;
+        justify-content: center;
+    }
+
 
     .flyer-image{
         width: 100%;
-        height: 110%;
-        margin-top: -35px;
+        height: 120%;
+        margin-top: -40px;
     }
 
 }
@@ -1123,7 +1153,7 @@ body{
 /* MEDIA BREAK MOBILE STARTS*/
 @media screen and (max-width: 480px) {
     .flyer{
-        height: 80vh;
+        height: 70vh;
       }
   
       .flyer-content{
@@ -1176,14 +1206,202 @@ body{
     }
   
       .flyer-image{
-          width: 100%;
-          height: 110%;
-          margin-top: -15px;
+          width: 110%;
+          height: 120%;
+          margin-top: -25px;
       }
-  
-
+}
 }
 /* MEDIA BREAK MOBILE ENDS*/
 
 
-    /* FLYER SECTION ENDS */
+     /* FLYER SECTION ENDS */
+
+
+
+
+     /* FOOTER SECTION STARTS */
+
+    .footer{
+        background-color: #383639;
+        color: white ;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-container{
+        width: 70%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .socials{
+        width: 20%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    #footer-heading-1{
+        font-family: 'Square Peg', cursive;
+        font-size: 30px;
+
+    }
+
+    #footer-heading-2{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 38px;
+        margin-top: -18px ;
+    }
+
+    .footer-h3{
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+
+    }
+
+    .social-buttons{
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-menu{
+        text-align: center;
+        width: 22%;
+        height: 90%;
+    }
+
+    .footer-ul{
+        list-style: none;
+        width: 70%;
+    }
+
+    .footer-li{
+        text-align: center;
+        margin-left: -20px;
+        width: 100%;
+    }
+
+    .mission-statement{
+        text-align: center;
+        width: 22%;
+        height: 90%;
+
+    }
+
+    .address{
+        text-align: center;
+        width: 22%;
+        height: 90%;
+    }
+
+    .mission-paragraph, .address-paragraph{
+        margin: 0;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .location-icon{
+        width: 20px ;
+        height: 20px ;
+    }
+
+
+
+        /* MEDIA BREAK 1100px STARTS*/
+
+@media screen and (max-width: 1100px) {
+
+    .footer-container{
+        width: 80%;
+    }
+
+}
+
+ /* MEDIA BREAK 1100px ENDS*/
+  
+
+ /* MEDIA BREAK TABS STARTS*/
+@media screen and (max-width: 768px) {
+
+    
+    #footer-heading-1{
+        font-family: 'Square Peg', cursive;
+        font-size: 35px;
+    }
+
+    #footer-heading-2{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 30px;
+        margin-top: -18px ;
+    }
+
+    .social-buttons{
+        width: 20px;
+        height: 20px;
+}
+ /* MEDIA BREAK TABS ENDS*/
+
+
+
+/* MEDIA BREAK MOBILE STARTS*/
+@media screen and (max-width: 480px) {
+    .footer{
+        height: 80vh;
+    }
+
+    .footer-container{
+        flex-direction: column-reverse;
+        height: 90%;
+        width: 95%;
+    }
+
+    .socials{
+        width: 100%;
+        height: 25%;
+
+    }
+
+    .footer-menu{
+        display: none;
+    }
+
+    .footer-h3{
+    }
+
+
+    .mission-statement{
+        width: 100%;
+        height: 30%;
+    }
+
+    .address{
+        width: 100%;
+        height: 30%;
+    }
+
+    .mission-paragraph{
+        margin-top: -10px;
+        font-size: 12px;
+        width: 100%;
+    }
+    
+    .address-paragraph{
+        margin-top: -10px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+}
+}
+/* MEDIA BREAK MOBILE ENDS*/
+
+     /* FOOTER SECTION ENDS */
+
