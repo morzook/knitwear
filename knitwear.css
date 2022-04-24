@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    border: 2px solid red;
 
 }
 
@@ -1207,6 +1206,7 @@ body{
     }
   
       .flyer-image{
+          border: 2px solid red;
           width: 100%;
           height: 120%;
           margin-top: -25px;
@@ -1214,15 +1214,198 @@ body{
 }
 }
 /* MEDIA BREAK MOBILE ENDS*/
-
-
      /* FLYER SECTION ENDS */
 
 
+ /* FAQ SECTION STARTS */
+ .faq-container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 70% ;
+  }
+
+  #faq-h2{
+      text-align: center;
+      font-size: 30px;
+  }
+  #faq-h2::before,
+  #faq-h2::after {
+      display: inline-block;
+      content: "";
+      border-top: 2px solid black;
+      width: 100px;
+      margin: -8px 8px;
+      transform: translateY(-1rem);
+  }
+  
+  .accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #adafab;
+  }
+  
+  .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #848481;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .accordion button:hover,
+  .accordion button:focus {
+    cursor: pointer;
+    color: #7d827c;
+  }
+  
+  .accordion button:hover::after,
+  .accordion button:focus::after {
+    cursor: pointer;
+    color: #7d827c;
+    border: 1px solid #7d827c;
+  }
+  
+  .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+  }
+  
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  
+  .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  
+  .accordion button[aria-expanded='true'] {
+    color: #7d827c;
+  }
+  .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
+  }
+
+  @media screen and (max-width: 1100px) {
+
+    .faq-container{
+        width: 70%;
+    }
+
+      #faq-h2{
+          font-size: 20px;
+      }
+
+      #faq-h2::before,
+        #faq-h2::after {
+         width: 50px;
+         margin: -10px 10px;
+        }
+    }
 
 
-     /* FOOTER SECTION STARTS */
+    @media screen and (max-width: 768px) {
 
+        #faq-h2{
+            font-size: 16px;
+            text-align: center;
+        }
+
+        #faq-h2::before,
+        #faq-h2::after {
+         width: 30px;
+         margin: -10px 10px;
+        }
+
+    }
+
+
+
+@media screen and (max-width: 480px) {
+
+    .faq-container{
+        width: 80%;
+    }
+
+      #faq-h2{
+          width: 100%;
+          font-size: 15px;
+          text-align: center;
+      }
+
+      #faq-h2::before,
+  #faq-h2::after {
+    display: none;
+  }
+
+  .accordion button .accordion-title {
+      text-align: center;
+    padding: 5px 2px 0 0;
+    margin-left: -15px;
+    font-size: 15px;
+  }
+
+  .accordion button .icon {
+    right: -15px;
+  }
+
+}
+  
+ /* FAQ SECTION ENDS */
+
+
+
+
+
+ /* FOOTER SECTION STARTS */
     .footer{
         background-color: #383639;
         color: white ;
@@ -1348,6 +1531,7 @@ body{
         width: 20px;
         height: 20px;
 }
+}
  /* MEDIA BREAK TABS ENDS*/
 
 
@@ -1399,9 +1583,9 @@ body{
     .social-buttons{
         width: 30px;
         height: 30px;
+}
+}
 
-}
-}
 /* MEDIA BREAK MOBILE ENDS*/
 
      /* FOOTER SECTION ENDS */
