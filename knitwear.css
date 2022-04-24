@@ -1239,11 +1239,11 @@ body{
   }
   
   .accordion .accordion-item {
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #7d827c;
   }
   
   .accordion .accordion-item button[aria-expanded='true'] {
-    border-bottom: 1px solid #adafab;
+    border-bottom: 1px solid #7d827c;
   }
   
   .accordion button {
@@ -1386,10 +1386,13 @@ body{
     display: none;
   }
 
+  .accordion .accordion-item {
+    margin-left: -15px;
+  }
+
   .accordion button .accordion-title {
       text-align: center;
     padding: 5px 2px 0 0;
-    margin-left: -15px;
     font-size: 15px;
   }
 
@@ -1409,7 +1412,7 @@ body{
     .footer{
         background-color: #383639;
         color: white ;
-        height: 40vh;
+        height: 30vh;
         display: flex;
         justify-content: center;
         align-items: center;
