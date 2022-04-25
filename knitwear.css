@@ -162,7 +162,7 @@ body{
 
 .heading-hr{
     background-color: black;
-    width: 100%;
+    width: 80%;
     margin-top: -15px;
 }
 
@@ -178,8 +178,8 @@ body{
 
 .hero-button{
     border: 2px solid rgb(14, 1, 1);
-    width: 40%;
-    height: 40px;
+    width: 50%;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,8 +364,8 @@ body{
 }
 
 .hero-button{
-    width: 35%;
-    height: 35px;
+    width: 40%;
+    height: 40px;
 }
    
    
@@ -655,14 +655,14 @@ body{
 
     .best-seller-container{
         margin-top: -80px;
-        width: 80%;
+        width: 75%;
         height: 75%;
     }
 
     .best-1, .best-2, .best-3{
         /* padding: 5px 10px 5px 10px; */
-        width: 28%;
-        height: 80%;
+        width: 26%;
+        height: 85%;
     }
 
     .best-seller-button{
@@ -806,7 +806,7 @@ body{
         justify-content: space-around;
         padding-left: 15px;
         padding-right: 15px;
-        width: 75%;
+        width: 70%;
         height: 80%;
     }
 
@@ -858,7 +858,7 @@ body{
     }
 
     .products-container{
-        width: 80%;
+        width: 75%;
     }
 
     .product-list{
@@ -885,6 +885,7 @@ body{
     }
 
     .products-container{
+        height: 75%;
         width: 90%;
     }
 
@@ -1045,7 +1046,7 @@ body{
     .flyer-image{
         width: 100%;
         height: 120%;
-        margin-top: -45px;
+        margin-top: -50px;
     }
 
     .flyer-heading{
@@ -1100,7 +1101,7 @@ body{
 .flyer-image{
     width: 100%;
     height: 110%;
-    margin-top: -25px;
+    margin-top: -30px;
 }
 
  /* MEDIA BREAK 1100px ENDS*/
@@ -1118,7 +1119,7 @@ body{
     }
 
     .flyer-container-1, .flyer-container-2{
-        width: 80%;
+        width: 85%;
         height: 40%;
     }
 
@@ -1143,7 +1144,7 @@ body{
     .flyer-image{
         width: 100%;
         height: 120%;
-        margin-top: -40px;
+        margin-top: -45px;
     }
 
 }
@@ -1206,10 +1207,9 @@ body{
     }
   
       .flyer-image{
-          border: 2px solid red;
           width: 100%;
           height: 120%;
-          margin-top: -25px;
+          margin-top: -30px;
       }
 }
 }
