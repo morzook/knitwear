@@ -156,25 +156,25 @@ body{
 }
 
 .heading-2{
-    border: 2px solid rgb(207, 255, 192);
+    border: 2px solid rgb(204, 7, 109);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    font-size: 8rem;
+    font-size: 10rem;
     text-align:justify;
-    height: 30%;
+    height: 35%;
     width: 100%;
 }
 
 .heading-hr{
     background-color: black;
     width: 80%;
-    margin-top: -15px;
+    margin-top: -20px;
 }
 
 .hero-paragraph{
     height: 20%;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .hero-button-container{
