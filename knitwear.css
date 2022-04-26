@@ -1057,7 +1057,7 @@ body{
     }
 
     .big-box-image-container{
-        border: 2px solid rgb(0, 255, 55);
+        border: 2px solid rgb(255, 81, 0);
         width: 50%;
         height: 100%;
     }
@@ -1099,7 +1099,7 @@ body{
     }
 
     .flyer-container-1, .flyer-container-2{
-        width: 60%;
+        width: 70%;
         height: 45%;
 }
 
@@ -1119,7 +1119,7 @@ body{
     }
 
     .big-box-image-container{
-        width: 60%;
+        width: 50%;
         height: 100%;
     }
 
@@ -1127,7 +1127,7 @@ body{
 .flyer-image{
     width: 110%;
     height: 120%;
-    margin-top: -50px;
+    margin-top: -47px;
 }
 
  /* MEDIA BREAK 1100px ENDS*/
@@ -1170,7 +1170,7 @@ body{
     .flyer-image{
         width: 110%;
         height: 130%;
-        margin-top: -50px;
+        margin-top: -47px;
     }
 
 }
