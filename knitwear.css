@@ -110,7 +110,6 @@ body{
 }
 
 .hero-container{
-    border: 2px solid red;
     margin-top: 30px;
     width: 75%;
     height: 70%;
@@ -123,7 +122,6 @@ body{
 
 
 .hero-container-1{
-    border: 2px solid rgb(0, 255, 76);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -137,12 +135,12 @@ body{
     border: 2px solid rgb(251, 255, 0);
     overflow: visible;
     width: 120%;
-    height: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 100px;
     position: relative;
 
 }
@@ -158,9 +156,10 @@ body{
 }
 
 .heading-2{
+    border: 2px solid pink;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    font-size: 110px;
+    font-size: 120px;
     height: 30%;
     width: 100%;
 }
@@ -191,7 +190,6 @@ body{
 }
 
 .hero-container-2{
-    border: 2px solid aqua;
     height: 90%;
     width: 48%;
     display: flex;
