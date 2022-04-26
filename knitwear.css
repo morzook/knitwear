@@ -1057,16 +1057,16 @@ body{
     }
 
     .big-box-image-container{
-        border: 2px solid red;
+        border: 2px solid rgb(0, 255, 55);
         width: 50%;
         height: 100%;
     }
 
     .flyer-image{
-        border: 2px solid pink;
+        border: 2px solid rgb(30, 43, 223);
         width: 110%;
         height: 130%;
-        margin-top: -50px;
+        margin-top: -65px;
     }
 
     .flyer-heading{
@@ -1119,7 +1119,7 @@ body{
     }
 
     .big-box-image-container{
-        width: 50%;
+        width: 60%;
         height: 100%;
     }
 
@@ -1127,7 +1127,7 @@ body{
 .flyer-image{
     width: 110%;
     height: 120%;
-    margin-top: -33px;
+    margin-top: -50px;
 }
 
  /* MEDIA BREAK 1100px ENDS*/
@@ -1145,7 +1145,7 @@ body{
     }
 
     .flyer-container-1, .flyer-container-2{
-        width: 85%;
+        width: 90%;
         height: 40%;
     }
 
@@ -1170,7 +1170,7 @@ body{
     .flyer-image{
         width: 110%;
         height: 130%;
-        margin-top: -43px;
+        margin-top: -50px;
     }
 
 }
@@ -1235,7 +1235,7 @@ body{
       .flyer-image{
           width: 110%;
           height: 120%;
-          margin-top: -25px;
+          margin-top: -40px;
       }
 }
 }
