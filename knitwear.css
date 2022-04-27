@@ -112,8 +112,8 @@ body{
 .hero-container{
     border: 2px solid aqua;
     margin-top: 30px;
-    width: 58rem;
-    height: 23rem;
+    width: 80%;
+    height: 70%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -123,12 +123,13 @@ body{
 
 
 .hero-container-1{
+    border: 2px solid red;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    left: 100px;
+    left: 80px;
     height: 90%;
     width:60%;
 }
@@ -189,6 +190,7 @@ body{
 } 
 
 .hero-container-2{
+    border: 2px solid rgb(22, 38, 255);
     height: 90%;
     width: 48%;
     display: flex;
