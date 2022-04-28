@@ -445,7 +445,7 @@ width: 70%;
  /* MOBILE LANDSCAPE */
  @media (max-width: 700px) and (max-height: 500px) and (orientation: landscape) { 
   .hero{
-    height: 100vh ;
+    height: 200vh ;
     border: none;
 }
 
