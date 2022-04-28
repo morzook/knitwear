@@ -104,7 +104,7 @@ a.site-logo {
     padding: 8px;
     } */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   a.site-logo{
     font-size: 30px;
     margin-left: 5px;
@@ -610,7 +610,7 @@ a.site-logo {
      } 
     }
 
-     @media screen and (max-width: 500px) and (orientation: landscape) {
+     @media screen and (max-width: 600px) and (orientation: landscape) {
         .hero{
             height: 100vh ;
         }
@@ -715,7 +715,7 @@ a.site-logo {
 }
      
      .hero-blurb{
-         height: 20%;
+         height: 25%;
      }
      
      .blurb-hr{
@@ -967,7 +967,7 @@ a.site-logo {
 
 }
 
-@media screen and (max-width: 500px) and (orientation: landscape) {
+@media screen and (max-width: 600px) and (orientation: landscape) {
         
     .best-sellers{
         background: linear-gradient(180deg, #e5e3d7 70%, #fefefe 30%);
@@ -1209,7 +1209,7 @@ a.site-logo {
 
 }
 
-@media screen and (max-width: 500px) and (orientation: landscape) {
+@media screen and (max-width: 600px) and (orientation: landscape) {
         
     .products{
         height: 350vh;
@@ -1521,7 +1521,7 @@ a.site-logo {
       }
 }
 
-@media screen and (max-width: 500px) and (orientation: landscape) {
+@media screen and (max-width: 600px) and (orientation: landscape) {
        
     .flyer{
         height: 150vh;
@@ -1775,7 +1775,7 @@ a.site-logo {
 }
 
 
-@media screen and (max-width: 500px) and (orientation: landscape) {
+@media screen and (max-width: 600px) and (orientation: landscape) {
        
     .faq-container{
         width: 70%;
@@ -1997,7 +1997,7 @@ a.site-logo {
 }
 }
 
-@media screen and (max-width: 500px) and (orientation: landscape) {
+@media screen and (max-width: 600px) and (orientation: landscape) {
        
     .footer{
         height: 60vh;
