@@ -1859,7 +1859,7 @@ text-transform: uppercase;
 } 
 
  /* MOBILE  LANDSCAPE  */
- @media (max-width: 600px) and (max-height: 500px) and (orientation: landscape) { 
+ @media (max-width: 700px) and (max-height: 500px) and (orientation: landscape) { 
     
   .footer{
     height: 60vh;
