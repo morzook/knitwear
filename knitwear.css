@@ -104,7 +104,7 @@ a.site-logo {
     padding: 8px;
     } */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   a.site-logo{
     font-size: 30px;
     margin-left: 5px;
@@ -137,17 +137,6 @@ a.site-logo {
         padding: 20px;
         }
   }   
-
-/* @media screen and (max-width: 480px) {
-  a.site-logo{
-    font-size: 20px;
-    margin-left: 7px;
-    }
-    .container {
-      max-width: 480px;
-    }
-  } */
-
 /* Nav section ends */
 
 
@@ -512,6 +501,7 @@ a.site-logo {
         }
 
         .hero-container-1{
+            position: unset;
             height: 50%;
             width: 98%;
             padding: 5px;
@@ -530,7 +520,7 @@ a.site-logo {
         .heading-1{
             text-align: start;
             width: 90%;
-            font-size: 2.5;
+            font-size: 2.5rem;
             margin-bottom: -40px; 
         
         }
@@ -618,8 +608,130 @@ a.site-logo {
          font-size: 14px;
          line-height: normal;
      } 
-    
     }
+
+     @media screen and (max-width: 500px) and (orientation: landscape) {
+        .hero{
+            height: 100vh ;
+        }
+
+        .hero-container{
+            width: 95%;
+            height: 90%;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .hero-container-1{
+            position: unset;
+            height: 80%;
+            width: 59%;
+            padding: 5px;
+            margin-top: -10px;
+        }
+        
+        .hero-container-1-content{
+            padding: 5px;
+            width: 100%;
+            height: 80%;
+           position: unset;
+           margin-left: 0 ;
+         }
+        
+        .heading-1{
+            text-align: start;
+            width: 90%;
+            font-size: 2.5rem;
+            margin-bottom: -30px; 
+        
+        }
+        
+        .heading-2{
+            text-align: center;
+            height: 35%;
+            width: 90%;
+            font-size: 3rem;
+        }
+        
+        .heading-hr{
+            width: 80%;
+            margin-top: -8px;
+        }
+     
+        .hero-paragraph{
+         width: 100%;
+         margin-top: -5px;
+         text-align: center;
+         font-size: 15px;
+        }
+     
+     .hero-button-container{
+         width: 99%;
+         margin-top: 25px;
+         display: flex;
+         justify-content: center;
+     }
+     
+     .hero-button{
+         width: 60%;
+         height: 30px;
+         font-size: 20px;
+     }
+        
+        
+        .hero-container-2{
+            height: 80%;
+            width: 49%;
+            margin-top: -10px;
+            justify-content: center;
+        }
+        
+     .hero-image-1-container{
+         width: 50%;
+         height: 100%;
+     }
+     
+     .hero-image-1{
+         width: 100%;
+         height: 100%;
+     }
+     
+.image-container{
+    width: 45%;
+    height: 100%;
+    align-items: center;
+}
+
+.hero-image-2-container, .hero-image-3-container{
+      width: 90%;
+      height: 48%;
+}
+
+.hero-image-2, .hero-image-3{
+    width: 100%;
+    height: 100%;
+}
+     
+     .hero-blurb{
+         height: 20%;
+     }
+     
+     .blurb-hr{
+         width: 25%;
+         margin-top: 15px;
+     }
+     
+     .blurb-paragraph{
+        padding-top: 5px;
+         margin-top: 0;
+         height: 90%;
+         width: 95%;
+         font-size: 14px;
+         line-height: normal;
+     } 
+    } 
     /* MEDIA BREAK MOBILE ENDS*/
 
     /* HERO SECTION ENDS */
@@ -854,6 +966,74 @@ a.site-logo {
     }
 
 }
+
+@media screen and (max-width: 500px) and (orientation: landscape) {
+        
+    .best-sellers{
+        background: linear-gradient(180deg, #e5e3d7 70%, #fefefe 30%);
+        height: 230vh;
+        margin-top: 20px;
+    }
+
+    .best-seller-container{
+        margin-top: -100px;
+        width: 70%;
+        height: 90%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    h2::before,
+    h2::after {
+        width: 25px;
+    }
+
+    .best-1, .best-2, .best-3{
+        /* padding: 5px 10px 5px 10px; */
+        width: 45%;
+        height: 40%;
+    }
+
+    .best-seller-images{
+        height: 70%;
+
+    }
+
+    .description{
+        height: 10%;
+        margin-top: -10px;
+        text-align: center;
+
+    }
+
+    .price{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: -10px;
+        height: 10%;
+    }
+
+    .old-price{
+        font-weight: bold;
+    }
+
+    .new-price{
+        font-weight: bold;
+
+    }
+
+    .best-seller-button{
+        width: 40%;
+        height: 30px;
+        margin-top: -100px;
+    }
+   
+
+}
 /* MEDIA BREAK MOBILE ENDS*/
 
 /* BEST-SELLER SECTION ENDS */
@@ -1026,6 +1206,53 @@ a.site-logo {
         width: 50%;
         height: 35px;
     }
+
+}
+
+@media screen and (max-width: 500px) and (orientation: landscape) {
+        
+    .products{
+        height: 350vh;
+        margin-top: 20px;
+
+    }
+
+    .products-container{
+        padding-right: 5px;
+        padding-left: 5px;
+        width: 70%;
+        height: 90%;
+    }
+
+    #product-h2{
+        font-size: 1rem;
+    }
+
+
+    .product-list{
+        box-shadow: 0 2px 4px 0 rgba(128,130,127);
+        justify-content: space-between;
+        height: 30%;
+        width: 45%;
+    }
+
+    .product-description{
+        padding-top: 0;
+    }
+
+    .product-cost{
+        padding-bottom: 20px;
+    }
+
+    .products-container{
+        width: 90%;
+    }
+
+    .products-button{
+        width: 50%;
+        height: 35px;
+    }
+
 
 }
 /* MEDIA BREAK MOBILE ENDS*/
@@ -1227,7 +1454,7 @@ a.site-logo {
         height: 130%;
         margin-top: -56px;
     }
-
+}
 }
  /* MEDIA BREAK TABS ENDS*/
 
@@ -1293,7 +1520,71 @@ a.site-logo {
           margin-top: -40px;
       }
 }
+
+@media screen and (max-width: 500px) and (orientation: landscape) {
+       
+    .flyer{
+        height: 150vh;
+      }
+      
+      .flyer-content{
+        width: 100%;
+        height: 95%
+    }
+
+    .flyer-container-1, .flyer-container-2{
+      padding: 0;
+        width: 90%;
+        height: 35%;
+        justify-content: center;
+    }
+
+    .big-box{
+      justify-content: space-between;
+        width: 95%;
+        height: 90%;
+        padding-left: 2px;
+        padding-right: 2px;
+        
+    }
+
+    .small-box{
+        width: 40%;
+        height: 90%;
+    }
+
+    .flyer-text{
+        justify-content: center;
+        width: 48% ;
+        height: 100%;
+    }
+
+    .flyer-heading{
+      text-align: center;
+      width: 100%;
+       font-size: 12px;
+    }
+
+    .flyer-paragraph{
+        align-items: center;
+      width: 100%;
+      font-size: 10px;
+    }
+
+    .big-box-image-container{
+      width: 48%;
+      height: 120%;
+      margin-bottom: 20px;
+  }
+
+    .flyer-image{
+        width: 110%;
+        height: 120%;
+        margin-top: -32px;
+    }
+
 }
+
 /* MEDIA BREAK MOBILE ENDS*/
      /* FLYER SECTION ENDS */
 
@@ -1482,6 +1773,42 @@ a.site-logo {
   }
 
 }
+
+
+@media screen and (max-width: 500px) and (orientation: landscape) {
+       
+    .faq-container{
+        width: 70%;
+    }
+
+      #faq-h2{
+          width: 100%;
+          font-size: 13px;
+          text-align: center;
+      }
+
+      #faq-h2::before,
+  #faq-h2::after {
+    width: 20px;
+    margin: -12px 12px;
+  }
+
+  .accordion .accordion-item {
+    margin-left: -15px;
+  }
+
+  .accordion button .accordion-title {
+      text-align: center;
+    padding: 5px 2px 0 0;
+    font-size: 15px;
+  }
+
+  .accordion button .icon {
+    right: -15px;
+  }
+
+
+}
   
  /* FAQ SECTION ENDS */
 
@@ -1668,6 +1995,61 @@ a.site-logo {
         width: 30px;
         height: 30px;
 }
+}
+
+@media screen and (max-width: 500px) and (orientation: landscape) {
+       
+    .footer{
+        height: 60vh;
+    }
+
+    .footer-container{
+        flex-direction: row;
+        height: 100%;
+        width: 95%;
+        margin-top: -50px;
+    }
+
+    .socials{
+        width: 100%;
+        height: 25%;
+
+    }
+
+    .footer-menu{
+        display: none;
+    }
+
+    .mission-statement{
+        width: 80%;
+        height: 30%;
+        margin-top: -50px;
+    }
+
+    .address{
+        width: 100%;
+        height: 30%;
+        margin-top: -50px;
+    }
+
+    .mission-paragraph{
+        margin-top: 0;
+        font-size: 12px;
+        width: 100%;
+    }
+    
+    .address-paragraph{
+        margin-top: -10px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .social-buttons{
+        width: 30px;
+        height: 30px;
+}
+       
+
 }
 
 /* MEDIA BREAK MOBILE ENDS*/
