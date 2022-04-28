@@ -93,7 +93,7 @@ a.site-logo {
       overflow: visible;
     }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   a.site-logo{
     font-size: 30px;
     margin-left: 5px;
@@ -444,7 +444,7 @@ width: 70%;
 
 
  /* MOBILE LANDSCAPE */
- @media (max-width: 600px) and (max-height: 500px) and (orientation: landscape) { 
+ @media (max-width: 700px) and (max-height: 500px) and (orientation: landscape) { 
   .hero{
     height: 100vh ;
     border: none;
