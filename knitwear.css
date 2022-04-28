@@ -130,7 +130,6 @@ a.site-logo {
 
 /* HERO SECTION BEGINS */
 .hero{
-  border: 5px dotted tomato;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -152,7 +151,6 @@ a.site-logo {
 
 
 .hero-container-1{
-  border: 2px solid teal;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -287,7 +285,6 @@ a.site-logo {
  @media only screen and (max-width: 1024px) {
     
   .hero{
-    border: 5px solid teal;
       height: 90vh
    }
 
@@ -299,7 +296,6 @@ a.site-logo {
 
  
 .hero-container-1{
-  border: 2px solid teal;
     justify-content: center;
     left: 30px;
     height: 85%;
@@ -327,7 +323,6 @@ a.site-logo {
  @media only screen and (max-width: 768px) {
    
   .hero{
-    border: 5px solid blue;
     height: 90vh;
 
 }
@@ -444,7 +439,7 @@ width: 70%;
 
  /* MOBILE LANDSCAPE */
  @media (max-width: 700px) and (max-height: 500px) and (orientation: landscape) { 
-  .hero{
+   .hero{
     height: 110vh ;
     border: none;
 }
@@ -565,13 +560,12 @@ padding-top: 5px;
  font-size: 14px;
  line-height: normal;
 } 
-} 
+}  
 
 /* MOBILE PHONE POTRAIT */
 @media only screen and (max-width: 480px) { 
 
     .hero{
-      border: none;
         height: 110vh;
         max-width: 480px;
         flex-direction: column;
@@ -859,12 +853,12 @@ h2::after {
 }      
 } 
 
- /* MOBILE POTRAIT */
- @media (max-width: 600px) and (max-height: 500px) and (orientation: landscape) { 
+ /* MOBILE LANDSCAPE */
+ @media (max-width: 700px) and (max-height: 500px) and (orientation: landscape) { 
   
-  .best-sellers{
+   .best-sellers{
     background: linear-gradient(180deg, #e5e3d7 70%, #fefefe 30%);
-    height: 400vh;
+    height: 250vh;
     margin-top: 20px;
 }
 
@@ -886,7 +880,6 @@ h2::after {
 }
 
 .best-1, .best-2, .best-3{
-    /* padding: 5px 10px 5px 10px; */
     width: 45%;
     height: 40%;
 }
@@ -924,7 +917,7 @@ h2::after {
     height: 30px;
     margin-top: -100px;
 }
- }
+ } 
 
 
 /* MOBILE PHONE POTRAIT */
@@ -998,7 +991,6 @@ h2::after {
 
 
  /* STORE SECTION STARTS */
- /* PRODUCTS SECTION STARTS */
  .products{
   height: 150vh;
   display: flex;
@@ -1060,7 +1052,7 @@ h2::after {
 /* SMALL SCREENS, LAPTOPS */
 @media only screen and (max-width: 1024px) {
 
-  .products{
+.products{
     height: 130vh;
 }
 
@@ -1080,9 +1072,7 @@ h2::after {
 .product-cost{
     padding-bottom: 10px;
 }
-
 }
-
  /* iPADS, TABLETS */
  @media only screen and (max-width: 768px) {
 
@@ -1115,7 +1105,7 @@ h2::after {
  }
  /* MOBILE POTRAIT */
  @media (max-width: 600px) and (max-height: 500px) and (orientation: landscape) { 
-      
+/*       
   .products{
     height: 350vh;
     margin-top: 20px;
@@ -1158,7 +1148,7 @@ h2::after {
     height: 35px;
 }
 
-} 
+}  */
 
 /* MOBILE PHONE POTRAIT */
 @media only screen and (max-width: 480px) { 
@@ -1205,6 +1195,7 @@ h2::after {
     height: 35px;
 }
 }
+
  /* STORE SECTION ENDS */
 
   /* FLYER SECTION STARTS */
@@ -1403,7 +1394,7 @@ margin-top: -44px;
  /* MOBILE POTRAIT */
  @media (max-width: 600px) and (max-height: 500px) and (orientation: landscape) { 
        
-  .flyer{
+  /* .flyer{
     height: 150vh;
   }
 
@@ -1463,7 +1454,7 @@ margin-top: -44px;
       height: 110%;
       margin-top: -40px;
   }
-} 
+}  */
 
 /* MOBILE PHONE POTRAIT */
 @media only screen and (max-width: 480px) { 
