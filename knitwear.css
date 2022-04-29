@@ -411,6 +411,7 @@ a.site-logo {
 }
 
 .hero-paragraph{
+  border: 2px solid red;
 width: 100%;
 margin-top: -5px;
 font-size: 18px;
@@ -424,13 +425,13 @@ margin-top: 10px;
 .hero-button{
 width: 50%;
 height: 35px;
-font-size: 20px;
+font-size: 16px;
 }
 
 .hero-button:hover{
   width: 50%;
 height: 35px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 
