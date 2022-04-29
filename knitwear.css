@@ -864,7 +864,7 @@ h2::after {
  @media only screen and (max-width: 1024px) {
 
      .best-sellers{
-        height: 75vh;
+        height: 70vh;
     }
 
     h2::before,
@@ -874,7 +874,7 @@ h2::after {
 
     .best-seller-container{
         margin-top: -80px;
-        width:80%;
+        width: 85%;
         height: 75%;
     }
 
@@ -1165,7 +1165,7 @@ h2::after {
 @media only screen and (max-width: 1024px) {
 
 .products{
-    height: 130vh;
+    height: 110vh;
 }
 
 .products-container{
